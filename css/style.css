@@ -6,7 +6,9 @@
 
 body{
   background: #eaeaea;
-  overflow: hidden;
+  overflow-x: hidden;
+  background: rgb(0,100,0);
+  /* background: linear-gradient(180deg, rgba(0,100,0,1) 8%, rgba(57,124,57,1) 44%, rgba(170,170,170,1) 84%, rgba(170,170,170,1) 100%); */
 }
 
 /* Navigation Bar */
@@ -175,7 +177,7 @@ body{
   padding: 40px 20px;
   background-color: #f4f4f4; /* Light background for the About Us section */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 100%;
+  margin-top: 50%;
 }
 
 .about-us .about-text {
