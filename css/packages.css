@@ -1,0 +1,132 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006400;
+  padding: 10px 30px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left .navbar-brand {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-right a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar
+/* Packages Page Styles */
+.packages-container {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.packages-container h1 {
+  font-size: 36px;
+  color: #006400;
+  margin-bottom: 10px;
+}
+
+.packages-container .subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.package-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.package-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.package-details {
+  padding: 20px;
+  text-align: left;
+}
+
+.package-details h3 {
+  font-size: 24px;
+  color: #006400;
+  margin-bottom: 10px;
+}
+
+.package-details p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.package-details ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.package-details ul li {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #006400;
+  margin-bottom: 15px;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #777;
+}
+
+.book-now {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #006400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #004d00;
+}
